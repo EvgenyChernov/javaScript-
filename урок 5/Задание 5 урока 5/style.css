@@ -1,0 +1,26 @@
+#chess-board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    width: 500px;
+    height: 500px;
+}
+
+.chess-board__item_white {
+    background-color: white;
+    display: block;
+    content: " ";
+}
+
+.chess-board__item_black {
+    background-color: black;
+    display: block;
+    content: " ";
+}
+
+.chess-board__item_markup-bottom {
+
+}
+.color_white{
+    color: white;
+}
